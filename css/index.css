@@ -1,0 +1,559 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+   width: 100%;
+   margin-top: 15px;
+   /* height:70px; */
+   /* background-color: rgb(23, 23, 243);  */
+}
+.nav{
+     width: 40%;
+     /* height: 70px; */
+     /* background-color: red; */
+     margin-left: 130px;
+}
+.navbar{
+    width: 50%;
+    /* background-color: rgb(233, 79, 79); */
+    float: right;
+    margin-top: -35px;
+}
+.big-width:hover{
+    cursor: pointer;
+}
+.location{
+    width: 50%;
+    /* background-color: aquamarine; */
+    float: right;
+    margin-top: 16px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+    /* color: black; */
+}
+.navbar ul li i{
+    padding-left: 3px;
+}
+.icon{
+    width: 20%;
+    /* background-color: aquamarine; */
+    float: right;
+}
+.search{
+    width: 16%;
+    /* background-color: blue; */
+}
+.search i{
+    font-size: 19px;
+}
+.shopping{
+    width: 15%;
+    /* background-color: rgb(160, 17, 17); */
+    margin-left: 33px;
+    margin-top: -24px;
+
+}
+.shopping i{
+    font-size: 19px;
+}
+.sign-in{
+    width: 50%;
+    background-color: rgb(37, 180, 8);
+    margin-left: 65px;
+    margin-top: -20px;
+    border-radius: 10px;
+    
+}
+.sign-in p{
+    font-size: 16px;
+    padding-left: 6px;
+}
+.search i:hover{
+    cursor: pointer;
+}
+.shopping i:hover{
+    cursor: pointer;
+}
+.sign-in p:hover{
+    cursor: pointer;
+}
+.location p:hover{
+    cursor: pointer;
+}
+.nav img:hover{
+    cursor: pointer;
+}
+.download-app{
+    width: 100%;
+    height: 41px;
+    background-color: rgb(4, 34, 34);
+    margin-top: 20px;
+}
+.title-download{
+    width: 40%;
+    /* background-color: red; */
+    margin-left: 130px;
+}
+.title-download img{
+    width: 40px;
+}
+.title-download img:hover{
+    cursor: pointer;
+}
+.discount{
+    width: 35%;
+    /* background-color: black; */
+    margin-left: 190px;
+    margin-top: -31px;
+}
+.discount p{
+    color: white;
+    padding-top: -4px;
+}
+.download-this-app-now{
+    width:17%;
+    height: 35px;
+    background-color: rgb(222, 222, 233);
+    margin-top: -28px;
+    margin-left: 1000px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.download-this-app-now p{
+    padding-left:10px;
+    padding-top: 7px;
+}
+.download-this-app-now p:hover{
+    cursor: pointer;
+
+}
+.big-width{
+    width: 80%;
+    background-color: rgb(139, 122, 122);
+    margin: auto;
+    margin-top: 20px;
+}
+.slide-img{
+    width: 100%;
+    text-align: right;
+}
+.fruits{
+    width: 40%; 
+}
+.box-title{
+    width: 30%;
+    background-color: rgb(139, 122, 122);
+    margin-top: -250px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.box-title h3{
+    padding-left: 35px;
+}
+.box-title p{
+    font-size: 20px;
+    padding-left: 35px;
+}
+.box-title p:hover{
+    cursor: pointer;
+}
+.box-title h3:hover{
+    cursor: pointer;
+}
+.box-icon{
+    width: 50%;
+    background-color: aquamarine;
+    margin-top: -100px;
+}
+.box-icon{
+    width: 10%;
+    background-color: rgb(139, 122, 122);
+    /* margin-top: -100px; */
+
+}
+.box1-icon{
+    width: 10%;
+    background-color: rgb(139, 122, 122);
+    margin-top: 50px;
+    color: rgb(139, 122, 122);
+    margin-top: 100px;
+    
+}
+.box-icon i:hover{
+    cursor: pointer;
+}
+.second-box{
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box1{
+    width: 25%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.box1 img{
+    width: 250px;
+    height: 260px;
+    border-radius: 20px;
+   padding-left: 20px;
+}
+.box1 img:hover{
+    cursor: pointer;
+}
+.box2{
+    width: 25%;
+    background-color: #fff;
+    border-radius: 10px;
+    /* float: right; */
+    margin-left: 290px;
+    margin-top: -264px;
+}
+.box2 img{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+   padding-left: 20px;
+   
+}
+.box2 img:hover{
+    cursor: pointer;
+}
+.box3 img:hover{
+    cursor: pointer;
+}
+.box4 img:hover{
+    cursor: pointer;
+}
+/* .box5 img:hover{
+    cursor: pointer;
+}
+.box6 img:hover{
+    cursor: pointer;
+} */
+.box3{
+    width: 18%;
+    /* background-color: blue; */
+    margin-left: 600px;
+    margin-top: -264px;
+}
+.box3 img{
+    width: 250px;
+    height: 260px;
+    border-radius: 10px;
+}
+.box4{
+    width: 20%;
+    /* background-color: aquamarine; */
+    float: right;
+    margin-top: -264px;
+}
+.box4 img{
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+}
+.explore{
+    width: 100%;
+    background-color: rgb(249, 255, 253);
+    margin-top: 20px;
+}
+.third-box{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+.third-box .box1{
+    width: 16.66%;
+    background-color: red;
+}
+.third-box .box1 img{
+    width: 80%;
+}
+.third-box .box1 img:hover{
+    cursor: pointer;
+}
+
+.third-box .box2{
+  width: 16.66%;
+  background-color: rgb(10, 9, 9);
+  margin-right: 230px;
+}
+.third-box .box2 img{
+    width: 80%;
+}
+.third-box .box3{
+    width: 16.66%;
+  background-color: red;
+  margin-left: 200px;
+}
+.third-box .box3 img{
+    width: 80%;
+}
+.third-box .box1{
+
+}
+.third-box .box1{
+
+}
+.ddd{
+    margin: auto;
+}
+.aaaa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aaaa .ccc{
+    width: 30%;
+}
+.bbbb{
+    width: 25%;
+}
+.box-delivery{
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+    flex-wrap: nowrap;
+    display: flex;
+}
+.box{
+    width: 25%;
+    background-color: black;
+    color: white;
+    /* flex-direction: row; */
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    /* align-items: r;
+     */
+     /* float: left; */
+     margin: 5px;
+}
+.box img{
+    width: 100%;
+}
+.explore{
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 15px;
+}
+.box-food{
+    width: 80%;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+.box-food img{
+  width: 100%;
+}
+.mobile-app{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.mobile-app .main-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:  1px solid #000000;
+}
+.mobile-app .main-box .get-the-atise{
+    width: 70%;
+    padding: 0px 50px;
+}
+.mobile-app .main-box .get-the-atise h2{
+    font-size: 30px;
+    font-family: Khmer OS Content;
+}
+.mobile-app .main-box .get-the-atise p{
+    font-size: 15px;
+    font-family: Khmer OS Content;
+}
+.mobile-app .main-box .get-the-atise form{
+    width: 100%;
+    background-color:blueviolet;
+    position: relative;
+}
+.mobile-app .main-box .get-the-atise form input{
+    width: 80%;
+    padding: 20px 0px 20px 60px;
+    border: none;
+    outline: none;
+    background-color: #DDD;
+}
+.mobile-app .main-box .get-the-atise form span{
+    position: absolute;
+    padding: 20px 0px 20px 5px;
+}
+.mobile-app .main-box .get-the-atise form button{
+    position: absolute;
+    padding: 20px;
+    width: 130px;
+    right: 0;
+    border: none;
+    outline: none;
+}
+/* .mobile-app .main-box .get-the-atise form input{
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: antiquewhite;
+} */
+/* .mobile-app .main-box .get-the-atise form span{
+    position: absolute;
+    padding: 10px;
+} */
+/* .mobile-app .main-box .get-the-atise form {
+    position: relative;
+}
+.mobile-app .main-box .get-the-atise form button{
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 10px;
+} */
+/* .mobile-app .main-box .phone{
+    width: 30%;
+    padding: 0px 50px;
+}
+.mobile-app .main-box .phone .images{
+    width: 100%;
+}
+.mobile-app .main-box .phone .images img{
+    width: 100%;
+} */
+.mobile-app-banner{
+    width: 80%;
+    margin: auto;
+}
+.mobile-app-banner .main-box{
+    width: 100%;
+    display: inline-block;
+    padding: 0px 100px;
+}
+.mobile-app-banner .main-box .left{
+    width: 70%;
+    float: left;
+    padding: 30px 50px;
+}
+.mobile-app-banner .main-box .left h1{
+    font-size: 40px;
+    font-family: Khmer OS Content;
+    font-weight: bold;
+}
+.mobile-app-banner .main-box .left p{
+    font-size: 12px;
+    font-family: Khmer OS Content;
+    padding-bottom: 20px;
+}
+.mobile-app-banner .main-box .left form{
+    position: relative;
+    width: 100%;
+}
+.mobile-app-banner .main-box .left form input{
+    width: 100%;
+    padding: 20px 0px 20px 70px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #ddd;
+}
+.mobile-app-banner .main-box .left form span{
+    position: absolute;
+    padding: 20px 10px;
+}
+.mobile-app-banner .main-box .left form button{
+    padding: 15px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 130px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #ff8000;
+    color: #fff;
+}
+.mobile-app-banner .main-box .left h2{
+    font-size: 12px;
+    font-family: Khmer OS Content;
+    padding-bottom: 20px;
+    padding: 20px 0px;
+}
+.mobile-app-banner .main-box .left .app-link{
+    display: flex;
+}
+.mobile-app-banner .main-box .right{
+    width: 30%;
+    float: left;
+}
+.mobile-app-banner .main-box .right .images{
+    width: 100%;
+}
+.mobile-app-banner .main-box .right .images img{
+    width: 100%;
+}
+.left form button:hover{
+    cursor: pointer;
+}
+.area{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(202, 200, 200);
+}
+.area .main{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    /* background-color: red; */
+}
+.big-title{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+}
+.big-width-title{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(29, 165, 74); */
+    
+}
+.box{
+    width: 24%;
+    height:200px;
+    /* background-color: aquamarine; */
+    /* display: inline; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    float: left;
+    
+}
+.big-width-title .box p{
+    padding-top: 10px;
+}
+.big-width-title .box pre{
+    background-color:rgb(202, 200, 200) ;
+}
